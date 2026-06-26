@@ -1,0 +1,16 @@
+{
+  "name": "cypress-aprendizado",
+  "version": "1.0.0",
+  "description": "Projeto didático de automação com Cypress — base para posts de blog sobre escrita de testes, locators e boas práticas.",
+  "author": "Diogo Gomes",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
