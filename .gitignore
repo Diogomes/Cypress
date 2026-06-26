@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Artefatos gerados pelo Cypress nas execuções
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Sistema operacional / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
